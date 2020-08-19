@@ -6,6 +6,8 @@ import CreateTodo from "./components/create-todo.component";
 import EditTodo from "./components/edit-todo.component";
 import TodosList from "./components/todos-list.component";
 
+import logo from "./logo.png"
+
 class App extends Component {
   render() {
     return (
@@ -13,7 +15,9 @@ class App extends Component {
         <div className="container">
 
           <nav className="navbar navbar-expand-lg navbar-light bg-light ">
+            <a className="navbar-brand" href="#" target="_blank">
 
+            </a>
           </nav>
 
           <h2>MERN-Stack Todo App</h2>
