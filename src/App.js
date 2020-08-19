@@ -11,6 +11,11 @@ class App extends Component {
     return (
       <Router>
         <div className="container">
+
+          <nav className="navbar navbar-expand-lg navbar-light bg-light ">
+
+          </nav>
+
           <h2>MERN-Stack Todo App</h2>
           <Route path="/" exact component={TodosList} />
           <Route path="/edit/:id" component={EditTodo} />
